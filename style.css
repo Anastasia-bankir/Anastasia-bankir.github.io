@@ -27,6 +27,9 @@ body {
 .col-md-6 {
   width: 50%;
 }
+.col-md-9 {
+  width: 75%;
+}
 [class*="col-"] {
   float: left;
   padding-left: 15px;
@@ -66,6 +69,7 @@ body {
   margin-top: 7px;
 }
 
+/* 
 .container-seach {
   width: 75%;
   height: 50px;
@@ -136,4 +140,4 @@ body {
 .submenu-product {
   background-color: #2c71b8;
   color: #fff;
-}
+} */
