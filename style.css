@@ -148,6 +148,8 @@ body {
   color: #fff;
 }
 table {
+  border-collapse: separate;
+  border-spacing: 15px;
 }
 .table-name {
   column-span: 3;
@@ -162,14 +164,20 @@ table td {
   width: 270px;
   height: 650px;
   border: 1px solid #fff;
+  color: #fff;
+  font-size: 21px;
 }
+
 .block-img {
   background: url(images/Line.png) 0 0 no-repeat,
     url(images/Line2.png) 0 0 no-repeat, url(images/hurt.png) 95% 30% no-repeat,
     rgba(255, 255, 255, 0.75);
   height: 180px;
-  line-height: 180px;
-  text-align: center;
+}
+.block-img img {
+  position: relative;
+  top: 25%;
+  left: 30%;
 }
 .focus {
   background: url(images/focus.png) no-repeat center;
@@ -177,6 +185,35 @@ table td {
   height: 30px;
   border: 0.5px solid #2c71b8;
   position: relative;
-  left: 22%;
+  left: 47%;
   bottom: 32%;
+}
+
+.device-name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.bold21 {
+  font-weight: bold;
+}
+.price {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.sup {
+  vertical-align: super;
+  font-size: 50%;
+}
+td button {
+  width: 210px;
+  height: 50px;
+}
+.button {
+  text-align: center;
+  padding-left: 0;
+}
+.text {
+  padding-right: 55px;
 }
