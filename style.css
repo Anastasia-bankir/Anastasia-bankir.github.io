@@ -30,6 +30,7 @@ body {
 .col-md-9 {
   width: 75%;
 }
+
 [class*="col-"] {
   float: left;
   padding-left: 15px;
@@ -126,16 +127,56 @@ body {
   color: #fff;
   background: #2c71b8 url(images/arrow_down_white.png) no-repeat 95%;
 }
-
 .submenu-product {
   position: absolute;
-  background: #2c71b8;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: max-content;
+  display: none;
 }
-
+.submenu-product li {
+  width: 200%;
+  border: 1px solid #2c71b8;
+}
+.submenu-product a {
+  text-align: left;
+  padding-left: 30px;
+}
+.submenu-product a:hover {
+  color: #2c71b8;
+  background: #fff;
+}
 .menu-product:hover a {
   background: #2c71b8;
   color: #fff;
+}
+table {
+}
+.table-name {
+  column-span: 3;
+  text-align: start;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  height: 100px;
+  line-height: 100px;
+}
+table td {
+  width: 270px;
+  height: 650px;
+  border: 1px solid #fff;
+}
+.block-img {
+  background: url(images/Line.png) 0 0 no-repeat,
+    url(images/Line2.png) 0 0 no-repeat, url(images/hurt.png) 95% 30% no-repeat,
+    rgba(255, 255, 255, 0.75);
+  height: 180px;
+  line-height: 180px;
+  text-align: center;
+}
+.focus {
+  background: url(images/focus.png) no-repeat center;
+  width: 30px;
+  height: 30px;
+  border: 0.5px solid #2c71b8;
+  position: relative;
+  left: 22%;
+  bottom: 32%;
 }
