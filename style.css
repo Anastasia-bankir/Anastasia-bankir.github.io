@@ -162,7 +162,6 @@ table {
 }
 table td {
   width: 270px;
-  height: 650px;
   border: 1px solid #fff;
   color: #fff;
   font-size: 21px;
@@ -192,6 +191,7 @@ table td {
 .device-name {
   font-size: 30px;
   font-weight: bold;
+  padding: 10px 0px 15px 10px;
 }
 .bold21 {
   font-weight: bold;
@@ -212,8 +212,8 @@ td button {
 }
 .button {
   text-align: center;
-  padding-left: 0;
+  padding: 5px 0 15px 0;
 }
 .text {
-  padding-right: 55px;
+  padding: 15px 55px 15px 10px;
 }
